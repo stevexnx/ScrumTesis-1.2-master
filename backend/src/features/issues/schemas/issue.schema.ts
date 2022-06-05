@@ -14,7 +14,7 @@ export class Issue {
   @Prop({ required: true, minlength: 5 })
   title: string;
 
-  @Prop({ enum: IssueType, default: IssueType.STORY })
+  @Prop({ enum: IssueType, default: IssueType.Reporte })
   type: string;
 
   @Prop({ enum: IssueStatus, default: IssueStatus.BACKLOG })

@@ -13,7 +13,7 @@ export const issues = [
     listPosition: 0,
     priority: 'High',
     status: 'Done',
-    type: 'Task',
+    type: 'Tarea',
     _id: '612dd83cd56ea095fc673dc6',
     title: 'Instructions for creating a project in Kanban Project Management',
     description: {

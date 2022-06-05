@@ -23,7 +23,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133806/create-project.gif" } }
         ]
       },
-      type: 'Task',
+      type: 'Tarea',
       status: IssueStatus.DONE,
       priority: IssuePriority.HIGH,
       listPosition: 0,
@@ -72,7 +72,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133827/assign-users-to-project.gif" } }
         ]
       },
-      type: 'Story',
+      type: 'Reporte',
       status: IssueStatus.DONE,
       priority: IssuePriority.MEDIUM,
       listPosition: 1,
@@ -110,7 +110,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133834/create-issue.gif" } }
         ]
       },
-      type: 'Task',
+      type: 'Tarea',
       status: IssueStatus.DONE,
       priority: IssuePriority.HIGHEST,
       listPosition: 2,
@@ -161,7 +161,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133846/assing-users-to-issue.gif" } }
         ]
       },
-      type: 'Story',
+      type: 'Reporte',
       status: IssueStatus.IN_REVIEW,
       priority: IssuePriority.HIGHEST,
       listPosition: 0,
@@ -193,7 +193,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133853/filter-issue.gif" } },
         ]
       },
-      type: 'Task',
+      type: 'Tarea',
       status: IssueStatus.IN_REVIEW,
       priority: IssuePriority.LOW,
       listPosition: 1,
@@ -231,7 +231,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133863/manage-projects.gif" } }
         ]
       },
-      type: 'Story',
+      type: 'Reporte',
       status: IssueStatus.IN_REVIEW,
       priority: IssuePriority.HIGH,
       listPosition: 2,
@@ -269,7 +269,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626133849/drag-drop-issue.gif" } }
         ]
       },
-      type: 'Story',
+      type: 'Reporte',
       status: IssueStatus.IN_PROGRESS,
       priority: IssuePriority.LOWEST,
       listPosition: 0,
@@ -301,7 +301,7 @@ export class IssueData {
           { insert: { image: "https://res.cloudinary.com/comparte/image/upload/v1626135505/manage-comments.gif" } }
         ]
       },
-      type: 'Story',
+      type: 'Reporte',
       status: IssueStatus.IN_PROGRESS,
       priority: IssuePriority.LOW,
       listPosition: 1,
@@ -496,7 +496,7 @@ export class IssueData {
       title:
         'Add work items with "+ Create Issue" at the top right of the screen >> Try adding a new card now',
       description: "",
-      type: 'Story',
+      type: 'Reporte',
       status: IssueStatus.IN_REVIEW,
       priority: IssuePriority.HIGHEST,
       listPosition: 0,

@@ -14,8 +14,8 @@ export class ProjectConst {
 
   static IssueTypesWithIcon: IssueTypeWithIcon[] = [
     new IssueTypeWithIcon('Bug'),
-    new IssueTypeWithIcon('Story'),
-    new IssueTypeWithIcon('Task'),
+    new IssueTypeWithIcon('Reporte'),
+    new IssueTypeWithIcon('Tarea'),
   ];
 
   static ProjectCategories: ProjectCategory[] = ['Software', 'Marketing', 'Business']
