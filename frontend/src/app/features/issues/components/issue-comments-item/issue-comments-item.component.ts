@@ -91,7 +91,7 @@ export class IssueCommentsItemComponent {
     });
   }
 
-  cancel() {
+  cancelar() {
     this.commentEditControl.setValue('');
     this.changeEditMode();
     this.store.dispatch(setIssueEditing({ isEditing: false }));
