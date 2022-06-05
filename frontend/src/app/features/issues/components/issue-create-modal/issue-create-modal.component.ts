@@ -111,7 +111,7 @@ export class IssueCreateModalComponent implements OnInit, OnDestroy {
     this.issueForm = this.fb.group({
       projectId: [this.currentProjectId],
       projectKey: [this.currentProjectKey],
-      type: ['Reporte', Validators.required],
+      type: ['REPORTE', Validators.required],
       priority: [IssuePriority.MEDIUM, Validators.required],
       title: ['', [Validators.required, Validators.minLength(5)]],
       description: [''],
