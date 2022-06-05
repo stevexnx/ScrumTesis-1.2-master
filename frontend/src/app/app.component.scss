@@ -24,8 +24,10 @@ nz-header {
 nz-content {
   flex: 1 1 0%;
   overflow: auto;
-  background: #fff;
+  background-image: url("https://cdn.pixabay.com/photo/2019/11/22/17/15/drop-of-water-4645249_960_720.jpg");
+  background-size: cover;
 }
+
 
 nz-footer {
   text-align: center;
